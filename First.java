@@ -7,5 +7,6 @@ class First
     Scanner s = new Scanner(System.in);
     System.out.print("Enter Full Name");
     String str = s.nextLine();
+    System.out.println("You have entered this text ---> "+str);
   }
 }
